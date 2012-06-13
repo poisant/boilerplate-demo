@@ -58,7 +58,7 @@
   </div>
   <p class="banner ir">This will be reaplaced with an Image</p>
   <footer>
-<p> this is footer content space - copyright 2099</p>
+<p id="foo"> this is footer content space - copyright 2099</p>
   </footer>
 
 
@@ -67,12 +67,10 @@
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-
-  
-  <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
-  
-
+  <script>
+    //add script here if any
+    $("#foo").html("Footer changed to - copyright 2012");
+  </script>
 
 </body>
 </html>
